@@ -18,7 +18,7 @@ $mensaje .= "Teléfono: " . $telefono . " \r\n";
 $mensaje .= "Mensaje: " . $empresa . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'contacto@mortaCorp.com';
+$para = 'gabrielmayorgate@gmail.com';
 $asunto = 'Mensaje referente a mortaApp';
 
 if (mail($para, $asunto, utf8_decode($mensaje), $header))
