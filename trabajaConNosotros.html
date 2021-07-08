@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>MortaCorp</title>
+        <meta name="description" content="Esta página web es sobre la empresa mortaCorp" />
+        <meta name="author" content="MortaCorp" />
+        <meta name="keywords" content="Morta, MortaCorp, MortCorp, MortaCor" />
+        <link rel="stylesheet" href="estilos.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <ul> 
+                    <li><a class="logo" href="index.html"><img src="images/corp.png"></a></li> 
+                    <li><a class="logo" href="index.html"><img src="images/morta.png"></a></li> 
+                    <div class="der">
+                    <li><a href="mortaApp.html">MortaApp</a></li>
+                    <li><a href="quienesSomos.html">Quiénes somos</a></li>
+                    <li><a class="active" href="trabajaConNosotros.html">Trabaja con nosotros</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="fila">
+            <div class="column l">
+                <img src="images/dinero.png">
+            </div>
+
+            <div class="column r">
+                <article class="margensup" >
+                    <p >Trabajar con nosotros Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptas adipisci optio illo reiciendis dicta? Voluptate impedit accusamus veniam. Sint reprehenderit laudantium similique tenetur, ipsa cupiditate laboriosam quisquam aliquam ab nam natus iusto repudiandae voluptates consequatur minima! Dolorum laborum, illo fugit vel optio illum! Cumque molestias odio facere voluptates labore?</p>
+                </article>
+            </div>
+        </div>
+        
+        <section class="contacto">
+            <h1>Contáctanos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit quas, odit molestiae veritatis officia nostrum, optio, ut iste magni magnam iure iusto! Eveniet quos veritatis voluptatum iure consequatur autem facere earum soluta, nostrum accusamus dignissimos fugiat pariatur perferendis commodi.</p>
+        </section>
+
+        <section class="column l">
+            <div>
+                <h2>Formulario de contacto</h2>
+                <form action="enviar.php" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" class="caja1" required>
+                    <input type="email" name="email" placeholder="Email" class="caja1" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono" class="caja1">
+                    <input type="text" name="asunto" placeholder="Asunto" class="caja1" required>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="caja2" placeholder="Deja tus comentarios aqui" required></textarea>
+                    <button type="submit" class="enviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="column r">
+            <img class="margenizq" src="images/ubicacion.png">
+            <img class="margenizq" src="images/twitter.png">
+            <img class="margenizq" src="images/facebook.png">
+        </section>
+
+        <section class="column r">
+            <img class="margenizq" src="images/instagram.png">
+            <img class="margenizq" src="images/whatsapp.png">
+            <img class="margenizq" src="images/correo.png">
+        </section>
+
+    </body>
+</html>

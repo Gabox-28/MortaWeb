@@ -1,0 +1,166 @@
+html{
+    font-family: sans-serif;
+    background-image: url(images/fondo3.jpg);
+}
+
+
+h1{
+    font-size:40px;
+    color: white;
+    text-align: center;
+    
+}   
+
+h2{
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.menu{
+    margin-top: 20px;
+    
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul li{
+    display: inline-block;
+      
+}
+
+.der{
+    float: right;
+}
+
+.menu ul li a:not(.logo){
+    padding: 14px
+}
+
+.menu ul li a{  
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover:not(.active, .logo){
+    background-color: #4f023e;
+    border-radius: 90px;
+}
+
+.active{
+    background-image: linear-gradient(135deg, #2ACCFF, #0067BE);
+    border-radius: 90px;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+  }
+
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.column.l{
+    margin-top: 50px; 
+    margin-left: 80px;
+    width: 40%;
+}
+
+.column.r{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.margensup{
+    margin-top: 100px;
+}
+
+.margensup300{
+    margin-top: 300px;
+}
+
+.margenizq{
+    margin-left: 60px;
+}
+
+.fila:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contacto{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
+.caja1{
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+    padding: 12px;
+    font-size: 14 px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    
+}
+
+.caja2{
+    width: 470px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.enviar{
+    background-color:#4CAF50;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 70px;
+    width: 91%;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: #45a049;
+}
+
+footer{
+    color: white;
+    line-height:50px;
+    text-align:center;
+    width:100%;
+    background-color: #0A0A0A;
+}
+
+.footer{
+    bottom: 0;
+}
